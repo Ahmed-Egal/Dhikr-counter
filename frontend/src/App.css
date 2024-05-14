@@ -1,0 +1,59 @@
+.supplication-cards {
+    display: grid;
+    grid-template-columns: 3fr 3fr 0.5fr;
+    grid-template-rows: 1fr;
+    gap: 30px;
+    }
+.root{
+    background-color: aqua;
+}
+.english-text{
+    font-size: 14px;
+    margin-top: 20px;
+
+}
+.arabic-text{
+    font-family: "Naskh", "Hafs", "Adobe Arabic", "Simplified Arabic", "Traditional Arabic", "Arabic Typesetting", "Times New Roman", "Tahoma", "Arial", "serif";
+    text-align: right;
+    font-size: 25px;
+    font-weight: 600;
+    
+}
+.counter-div{
+    background-color: rgb(251, 105, 105);
+    color: white;
+    width: 100px;
+    text-align: center;
+    font-size: 1.8em;
+    line-height: normal;
+    font-weight: 400;
+    font-family: 'DS-Digital';
+    border: none;
+    padding-top: 10px;
+    
+}
+.counter-btn{
+    border: none;
+    background-color: rgb(251, 105, 105);
+    color: white;
+    text-align: center;
+    font-family: 'DS-Digital';
+    font-size: 1.8em;
+    line-height: normal;
+    font-weight: 400;
+    width: 100px;
+
+}
+.reset-btn{
+    border: none;
+
+}
+reset-icon{
+    border-radius: 12px;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
