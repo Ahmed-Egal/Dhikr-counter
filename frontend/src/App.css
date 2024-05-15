@@ -57,3 +57,9 @@ reset-icon{
     justify-content: center;
     
 }
+.times-to-read{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color: rgb(182, 84, 15)
+};
